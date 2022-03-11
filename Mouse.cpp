@@ -22,7 +22,8 @@ int main()
 		Local::GlobalMousePosition = sf::Mouse::getPosition();
 		Local::LocalMousePosition  = sf::Mouse::getPosition(window);
 		
-		//std::cout << "Global Mouse Position  :  " << Local::GlobalMousePosition.x << "   " << Local::GlobalMousePosition.y << std::endl;
+		// commentify one of them to display the other clearly
+		std::cout << "Global Mouse Position  :  " << Local::GlobalMousePosition.x << "   " << Local::GlobalMousePosition.y << std::endl;
 		std::cout << "Local  Mouse Position  :  " << Local::LocalMousePosition.x  << "   " << Local::LocalMousePosition.y  << std::endl;
 		
 	}
